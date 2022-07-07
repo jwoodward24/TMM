@@ -6,11 +6,11 @@
 <!ENTITY user_id "juliaw">
 <!ENTITY number_of_jobs "20">
 <!ENTITY number_of_events "180"> 
-<!ENTITY name "Neutrinos_TMM_v1.1_1k">
+<!ENTITY name "Neutrino_TMM_v1.1_k">
 <!ENTITY release "v08_00_00_43"> 
 <!ENTITY file_type "mc">
 <!ENTITY run_type "physics">
-<!ENTITY tag "coherent_June2021">
+<!ENTITY tag "heavyneutrino_2022">
 <!ENTITY prod_mode "test"> 
 ]>
 
@@ -58,9 +58,9 @@
   
     <!-- Input mode is key, tells you what the input to expect, i.e Artroot file usuall-->
     <inputmode>textfile</inputmode>
-    <inputlist>/Users/juliawoodward/final_splited_events/hepevt_splited_50events.list</inputlist>
-    <jobsub> --expected-lifetime=medium --append_condor_requirements='(TARGET.HAS_CVMFS_uboone_opensciencegrid_org==true)' -f /pnfs/uboone/resilient/users/juliaw/tars/proton_conversion.root -f /pnfs/uboone/resilient/users/juliaw/tars/MCC9_channel_list.txt </jobsub>
-    <jobsub_start>   --append_condor_requirements='(TARGET.HAS_CVMFS_uboone_opensciencegrid_org==true)' -f /pnfs/uboone/resilient/users/juliaw/tars/proton_conversion.root -f /pnfs/uboone/resilient/users/juliaw/tars/MCC9_channel_list.txt  </jobsub_start>
+    <inputlist>/uboone/app/users/juliaw/MyDir/TMM/final_splited_events/hepevt_splited_50events.list</inputlist>
+    <jobsub> --expected-lifetime=medium --append_condor_requirements='(TARGET.HAS_CVMFS_uboone_opensciencegrid_org==true)' -f /pnfs/uboone/resilient/users/markross/tars/proton_conversion.root -f /pnfs/uboone/resilient/users/markross/tars/MCC9_channel_list.txt </jobsub>
+    <jobsub_start>   --append_condor_requirements='(TARGET.HAS_CVMFS_uboone_opensciencegrid_org==true)' -f /pnfs/uboone/resilient/users/markross/tars/proton_conversion.root -f /pnfs/uboone/resilient/users/markross/tars/MCC9_channel_list.txt  </jobsub_start>
   </stage>  
  
   <!-- file type -->

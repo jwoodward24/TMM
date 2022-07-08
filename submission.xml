@@ -58,7 +58,7 @@
   
     <!-- Input mode is key, tells you what the input to expect, i.e Artroot file usuall-->
     <inputmode>textfile</inputmode>
-    <inputlist>/uboone/app/users/juliaw/MyDir/TMM/final_splited_events/hepevt_splited_50events.list</inputlist>
+    <inputlist>/pnfs/uboone/persistent/resilient/users/juliaw/hepevt_splitted_50events.list</inputlist>
     <jobsub> --expected-lifetime=medium --append_condor_requirements='(TARGET.HAS_CVMFS_uboone_opensciencegrid_org==true)' -f /pnfs/uboone/resilient/users/markross/tars/proton_conversion.root -f /pnfs/uboone/resilient/users/markross/tars/MCC9_channel_list.txt </jobsub>
     <jobsub_start>   --append_condor_requirements='(TARGET.HAS_CVMFS_uboone_opensciencegrid_org==true)' -f /pnfs/uboone/resilient/users/markross/tars/proton_conversion.root -f /pnfs/uboone/resilient/users/markross/tars/MCC9_channel_list.txt  </jobsub_start>
   </stage>  

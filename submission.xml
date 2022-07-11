@@ -4,8 +4,8 @@
 
 <!DOCTYPE project [
 <!ENTITY user_id "juliaw">
-<!ENTITY number_of_jobs "20">
-<!ENTITY number_of_events "180"> 
+<!ENTITY number_of_jobs "10">
+<!ENTITY number_of_events "2250"> 
 <!ENTITY name "Neutrino_TMM_v1.1_k">
 <!ENTITY release "v08_00_00_43"> 
 <!ENTITY file_type "mc">
